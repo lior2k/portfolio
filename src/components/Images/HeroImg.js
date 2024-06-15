@@ -8,7 +8,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const HeroImg = () => {
     return (
-        <div className='hero'>
+        <div className='hero slide-up'>
             <div className='mask'>
                 <img className='into-img' src={IntroImg} alt='IntroImg' />
             </div>

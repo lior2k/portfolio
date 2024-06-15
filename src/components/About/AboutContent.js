@@ -7,7 +7,7 @@ import React2 from '../../assets/react2.webp';
 
 const AboutContent = () => {
     return (
-        <div className='about'>
+        <div className='about slide-up-view'>
             <div className='left'>
                 <h1>About me</h1>
                 <p>
