@@ -6,7 +6,7 @@ import { MdPageview } from 'react-icons/md';
 
 const WorkCard = (props) => {
     return (
-        <div className='project-card'>
+        <div className='project-card fade-in'>
             <a href={props.source}>
                 <img src={props.imgsrc} alt='' />
             </a>

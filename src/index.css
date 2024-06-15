@@ -54,8 +54,7 @@ ul {
 
 @keyframes slide-up {
     0% {
-        -webkit-transform: translate3d(0, 3rem, 0);
-        transform: translate3d(0, 3rem, 0);
+        transform: translateY(6rem);
         opacity: 0;
         filter: alpha(opacity = 0);
         transition-property: opacity, transform;
@@ -64,8 +63,7 @@ ul {
     100% {
         opacity: 1;
         filter: alpha(opacity = 100);
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
+        transform: tranlateY(0);
     }
 }
 
@@ -75,8 +73,23 @@ ul {
     animation-duration: 1s;
 }
 
-.slide-up-view {
-    animation-name: slide-up;
+@keyframes fade-in {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+        filter: alpha(opacity = 0);
+        transition-property: opacity, transform;
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+        transform: scale(1);
+    }
+}
+
+.fade-in {
+    animation-name: fade-in;
     animation-fill-mode: forwards;
     animation-timeline: view(60vh 0px);
 }

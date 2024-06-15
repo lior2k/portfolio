@@ -6,7 +6,7 @@ import React from 'react';
 
 const Work = () => {
     return (
-        <div className='work-container slide-up-view'>
+        <div className='work-container'>
             <h1 className='project-heading'>My Projects</h1>
             <div className='project-container'>
                 {WorkCradData.map((val, ind) => {

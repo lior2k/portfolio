@@ -7,8 +7,8 @@ import React2 from '../../assets/react2.webp';
 
 const AboutContent = () => {
     return (
-        <div className='about slide-up-view'>
-            <div className='left'>
+        <div className='about'>
+            <div className='left fade-in'>
                 <h1>About me</h1>
                 <p>
                     Hello! I'm Lior Shahar, a passionate and dedicated Full
@@ -110,7 +110,7 @@ const AboutContent = () => {
                 </Link>
             </div>
 
-            <div className='right'>
+            <div className='right fade-in'>
                 <div className='img-container'>
                     <div className='img-stack top'>
                         <img src={React1} className='img' alt='true' />
