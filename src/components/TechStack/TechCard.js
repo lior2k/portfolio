@@ -1,16 +1,14 @@
-import "./TechStackStyles.css";
+import './TechStackStyles.css';
 
-import React from "react";
+import React from 'react';
 
 const TechCard = (props) => {
     return (
-        <div className="tech-item">
-            <div className="logo">
-                <img src={props.imgsrc}></img>
+        <div className='tech-item'>
+            <div className='logo'>
+                <img src={props.imgsrc} alt=''></img>
             </div>
-            <div className="title">
-                {props.title}
-            </div>
+            <div className='title'>{props.title}</div>
         </div>
     );
 };

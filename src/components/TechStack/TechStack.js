@@ -1,14 +1,14 @@
-import "./TechStackStyles.css";
+import './TechStackStyles.css';
 
-import React from "react";
-import TechCard from "./TechCard";
-import TechStackData from "./techStackData";
+import React from 'react';
+import TechCard from './TechCard';
+import TechStackData from './techStackData';
 
 const TechStackContent = () => {
     return (
-        <div className="tech-stack">
-            <h1 className="tech-stack-title">my tech stack</h1>
-            <div className="tech-stack-container">
+        <div className='tech-stack'>
+            <h1 className='tech-stack-title'>My Tech Stack</h1>
+            <div className='tech-stack-container'>
                 {TechStackData.map((val, ind) => {
                     return (
                         <TechCard
@@ -16,7 +16,7 @@ const TechStackContent = () => {
                             imgsrc={val.imgsrc}
                             title={val.title}
                         />
-                    )
+                    );
                 })}
             </div>
         </div>
