@@ -27,68 +27,91 @@ const AboutContent = () => {
                     to back-end development.
                 </p>
                 <h2>What I Do</h2>
-                <p>
-                    <ul style={{ listStyleType: 'disc', textAlign: 'left' }}>
-                        <li style={{ marginBlock: '4px' }}>
+                <ul
+                    style={{
+                        listStyleType: 'disc',
+                        textAlign: 'left',
+                        color: '#fff',
+                    }}
+                >
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Full Stack Development: </strong>I
                             specialize in both front-end and back-end
                             development, creating scalable, maintainable,
                             extensible, and fault-tolerant web applications.
-                        </li>
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Cloud Development: </strong>Proficient in
                             designing, deploying, and managing applications on
                             cloud platforms, particularly Amazon Web Services
                             (AWS). Experienced in leveraging AWS services like
                             EC2, S3, Lambda, and RDS to build scalable and
                             resilient cloud solutions.
-                        </li>
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Frontend Technologies: </strong>Expertise in
                             HTML, CSS, TypeScript, and React to build responsive
                             and interactive user interfaces.
-                        </li>
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Backend Technologies: </strong>Proficient in
                             Node.js, Express, and Python developing robust
                             server-side applications.
-                        </li>
-
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Database Management: </strong>Skilled in SQL
                             and NoSQL databases, ensuring data integrity and
                             optimized performance.
-                        </li>
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>API Integration: </strong>Experience in
                             building and consuming RESTful APIs, connecting
                             applications and ensuring smooth data flow.
-                        </li>
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Version Control: </strong>Adept at using Git
                             and GitHub for version control and collaboration.
-                        </li>
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Containerization: </strong>Skilled in using
                             Docker to create, deploy, and manage containerized
                             applications, ensuring consistency across multiple
                             environments.
-                        </li>
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Caching Solutions: </strong>Experienced with
                             Redis for in-memory data storage and caching,
                             enhancing application performance and scalability.
-                        </li>
-                        <li style={{ marginBlock: '4px' }}>
+                        </p>
+                    </li>
+                    <li>
+                        <p style={{ marginBlock: '0.5rem' }}>
                             <strong>Microservices Architecture: </strong>
                             Experienced in designing and implementing
                             microservices architectures, enabling scalable and
                             maintainable applications by breaking down
                             monolithic systems into manageable, independent
                             services.
-                        </li>
-                    </ul>
-                </p>
+                        </p>
+                    </li>
+                </ul>
                 <h2>My Philosophy</h2>
                 <p>
                     I believe in continuous learning and staying updated with

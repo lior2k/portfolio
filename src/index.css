@@ -91,5 +91,5 @@ ul {
 .fade-in {
     animation-name: fade-in;
     animation-fill-mode: forwards;
-    animation-timeline: view(60vh 0px);
+    animation-timeline: view(80vh 0px);
 }

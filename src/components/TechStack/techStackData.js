@@ -18,78 +18,84 @@ import nodejs from '../../assets/icons8-nodejs-96.png';
 import vite from '../../assets/icons8-vite-96.png';
 
 const TechStackData = [
-    {
-        imgsrc: bash,
-        title: 'Bash',
-    },
-    {
-        imgsrc: linux,
-        title: 'Linux',
-    },
-    {
-        imgsrc: aws,
-        title: 'AWS',
-    },
-    {
-        imgsrc: docker,
-        title: 'Docker',
-    },
-    {
-        imgsrc: python,
-        title: 'Python',
-    },
-    {
-        imgsrc: github,
-        title: 'Github',
-    },
-    {
-        imgsrc: git,
-        title: 'Git',
-    },
-    {
-        imgsrc: html,
-        title: 'HTML',
-    },
-    {
-        imgsrc: js,
-        title: 'JavaScript',
-    },
-    {
-        imgsrc: css3,
-        title: 'Css3',
-    },
-    {
-        imgsrc: typescript,
-        title: 'Typescript',
-    },
-    {
-        imgsrc: nodejs,
-        title: 'NodeJs',
-    },
-    {
-        imgsrc: redux,
-        title: 'Redux',
-    },
-    {
-        imgsrc: mongodb,
-        title: 'MongoDB',
-    },
-    {
-        imgsrc: npm,
-        title: 'NPM',
-    },
-    {
-        imgsrc: webpack,
-        title: 'Webpack',
-    },
-    {
-        imgsrc: nginx,
-        title: 'Nginx',
-    },
-    {
-        imgsrc: vite,
-        title: 'Vite',
-    },
+    [
+        {
+            imgsrc: bash,
+            title: 'Bash',
+        },
+        {
+            imgsrc: linux,
+            title: 'Linux',
+        },
+        {
+            imgsrc: aws,
+            title: 'AWS',
+        },
+        {
+            imgsrc: docker,
+            title: 'Docker',
+        },
+        {
+            imgsrc: python,
+            title: 'Python',
+        },
+        {
+            imgsrc: github,
+            title: 'Github',
+        },
+    ],
+    [
+        {
+            imgsrc: git,
+            title: 'Git',
+        },
+        {
+            imgsrc: html,
+            title: 'HTML',
+        },
+        {
+            imgsrc: js,
+            title: 'JavaScript',
+        },
+        {
+            imgsrc: css3,
+            title: 'Css3',
+        },
+        {
+            imgsrc: typescript,
+            title: 'Typescript',
+        },
+        {
+            imgsrc: nodejs,
+            title: 'NodeJs',
+        },
+    ],
+    [
+        {
+            imgsrc: redux,
+            title: 'Redux',
+        },
+        {
+            imgsrc: mongodb,
+            title: 'MongoDB',
+        },
+        {
+            imgsrc: npm,
+            title: 'NPM',
+        },
+        {
+            imgsrc: webpack,
+            title: 'Webpack',
+        },
+        {
+            imgsrc: nginx,
+            title: 'Nginx',
+        },
+        {
+            imgsrc: vite,
+            title: 'Vite',
+        },
+    ],
 ];
 
 export default TechStackData;

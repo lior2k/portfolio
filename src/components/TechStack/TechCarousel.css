@@ -1,0 +1,11 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    /* color: white; */
+    /* border: solid 1px red; */
+}
+
+/* .slick-prev,
+.slick-next {
+    display: none !important;
+} */
