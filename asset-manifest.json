@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dbef0f47.css",
-    "main.js": "/portfolio/static/js/main.376cf6cb.js",
+    "main.css": "/portfolio/static/css/main.4e4ff292.css",
+    "main.js": "/portfolio/static/js/main.0f8b4354.js",
     "static/media/WeatherAppHomepage.png": "/portfolio/static/media/WeatherAppHomepage.75123c8393a555bedc1a.png",
     "static/media/TradeInHomepage.png": "/portfolio/static/media/TradeInHomepage.645d9d778a974ce72522.png",
     "static/media/BigDataAnalyticsProject.png": "/portfolio/static/media/BigDataAnalyticsProject.8eae1d0e34c3275d674c.png",
@@ -15,11 +15,11 @@
     "static/media/react2.webp": "/portfolio/static/media/react2.8aa659a4278a7132e6f4.webp",
     "static/media/ClientServerChatApp.png": "/portfolio/static/media/ClientServerChatApp.4ff897cca48dfde7eee7.png",
     "index.html": "/portfolio/index.html",
-    "main.dbef0f47.css.map": "/portfolio/static/css/main.dbef0f47.css.map",
-    "main.376cf6cb.js.map": "/portfolio/static/js/main.376cf6cb.js.map"
+    "main.4e4ff292.css.map": "/portfolio/static/css/main.4e4ff292.css.map",
+    "main.0f8b4354.js.map": "/portfolio/static/js/main.0f8b4354.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbef0f47.css",
-    "static/js/main.376cf6cb.js"
+    "static/css/main.4e4ff292.css",
+    "static/js/main.0f8b4354.js"
   ]
 }
