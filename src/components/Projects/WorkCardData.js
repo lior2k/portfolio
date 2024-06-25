@@ -11,7 +11,7 @@ const ProjectCardData = [
     {
         imgsrc: proj0,
         title: 'Trade In Herzliya Car Dealership Website',
-        text: 'Designed and developed a responsive full stack web application for Trade In Herzliya using React, Node, Express, MongoDB, AWS EC2, Nginx, Vite and more. Including a custom CMS solution.',
+        text: 'Designed and developed a responsive full stack web application for Trade In Herzliya using React, Node, Express, MongoDB, AWS EC2, Nginx, Vite, Docker, Redis, and more. Including a custom CMS solution.',
         repo: 'https://www.tradeinherzliya.com/',
         view: '',
         hosted: true,
