@@ -12,7 +12,10 @@ const Navbar = () => {
     const headerRef = useRef(null);
 
     const changeColor = () => {
-        if (window.scrollY >= 100) {
+        let headerHeight = headerRef.current
+            ? headerRef.current.offsetHeight
+            : 100;
+        if (window.scrollY >= headerHeight) {
             headerRef.current.style.backgroundColor = 'rgba(0, 0, 0, 0.85)';
         } else {
             headerRef.current.style.backgroundColor = 'transparent';
