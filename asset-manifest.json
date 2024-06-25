@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6806d9e5.css",
-    "main.js": "/portfolio/static/js/main.fcaea5f2.js",
+    "main.js": "/portfolio/static/js/main.1168cece.js",
     "static/media/WeatherAppHomepage.png": "/portfolio/static/media/WeatherAppHomepage.75123c8393a555bedc1a.png",
     "static/media/TradeInHomepage.png": "/portfolio/static/media/TradeInHomepage.645d9d778a974ce72522.png",
     "static/media/BigDataAnalyticsProject.png": "/portfolio/static/media/BigDataAnalyticsProject.8eae1d0e34c3275d674c.png",
@@ -20,10 +20,10 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
     "main.6806d9e5.css.map": "/portfolio/static/css/main.6806d9e5.css.map",
-    "main.fcaea5f2.js.map": "/portfolio/static/js/main.fcaea5f2.js.map"
+    "main.1168cece.js.map": "/portfolio/static/js/main.1168cece.js.map"
   },
   "entrypoints": [
     "static/css/main.6806d9e5.css",
-    "static/js/main.fcaea5f2.js"
+    "static/js/main.1168cece.js"
   ]
 }
